@@ -1,0 +1,166 @@
+[
+  {
+    "window": [
+      200.0,
+      260.0
+    ],
+    "frontier": 60958,
+    "R_boundary": 1267,
+    "new_frontier": 1369,
+    "new_in_R": 1267,
+    "base_rate": 0.0208,
+    "auc_d_view": 0.647,
+    "auc_d_clear": 0.495,
+    "auc_not_touching": 0.493,
+    "auc_few_clear": 0.494,
+    "categories": {
+      "clear view <= 4.3 m": {
+        "n": 455,
+        "in_R": 10,
+        "share_of_R_boundary": 0.008,
+        "precision": 0.022
+      },
+      "clear view only > 4.3 m": {
+        "n": 231,
+        "in_R": 12,
+        "share_of_R_boundary": 0.009,
+        "precision": 0.052
+      },
+      "no clear view": {
+        "n": 46770,
+        "in_R": 948,
+        "share_of_R_boundary": 0.748,
+        "precision": 0.02
+      },
+      "touches surface": {
+        "n": 13502,
+        "in_R": 297,
+        "share_of_R_boundary": 0.234,
+        "precision": 0.022
+      }
+    }
+  },
+  {
+    "window": [
+      500.0,
+      560.0
+    ],
+    "frontier": 60283,
+    "R_boundary": 1907,
+    "new_frontier": 2014,
+    "new_in_R": 1907,
+    "base_rate": 0.0316,
+    "auc_d_view": 0.34,
+    "auc_d_clear": 0.502,
+    "auc_not_touching": 0.542,
+    "auc_few_clear": 0.502,
+    "categories": {
+      "clear view <= 4.3 m": {
+        "n": 424,
+        "in_R": 15,
+        "share_of_R_boundary": 0.008,
+        "precision": 0.035
+      },
+      "clear view only > 4.3 m": {
+        "n": 225,
+        "in_R": 4,
+        "share_of_R_boundary": 0.002,
+        "precision": 0.018
+      },
+      "no clear view": {
+        "n": 46407,
+        "in_R": 1624,
+        "share_of_R_boundary": 0.852,
+        "precision": 0.035
+      },
+      "touches surface": {
+        "n": 13227,
+        "in_R": 264,
+        "share_of_R_boundary": 0.138,
+        "precision": 0.02
+      }
+    }
+  },
+  {
+    "window": [
+      800.0,
+      860.0
+    ],
+    "frontier": 60964,
+    "R_boundary": 2201,
+    "new_frontier": 2344,
+    "new_in_R": 2201,
+    "base_rate": 0.0361,
+    "auc_d_view": 0.831,
+    "auc_d_clear": 0.508,
+    "auc_not_touching": 0.565,
+    "auc_few_clear": 0.508,
+    "categories": {
+      "clear view <= 4.3 m": {
+        "n": 446,
+        "in_R": 1,
+        "share_of_R_boundary": 0.0,
+        "precision": 0.002
+      },
+      "clear view only > 4.3 m": {
+        "n": 228,
+        "in_R": 2,
+        "share_of_R_boundary": 0.001,
+        "precision": 0.009
+      },
+      "no clear view": {
+        "n": 47056,
+        "in_R": 1994,
+        "share_of_R_boundary": 0.906,
+        "precision": 0.042
+      },
+      "touches surface": {
+        "n": 13234,
+        "in_R": 204,
+        "share_of_R_boundary": 0.093,
+        "precision": 0.015
+      }
+    }
+  },
+  {
+    "window": [
+      1100.0,
+      1160.0
+    ],
+    "frontier": 61564,
+    "R_boundary": 2520,
+    "new_frontier": 2654,
+    "new_in_R": 2520,
+    "base_rate": 0.0409,
+    "auc_d_view": 0.71,
+    "auc_d_clear": 0.507,
+    "auc_not_touching": 0.549,
+    "auc_few_clear": 0.507,
+    "categories": {
+      "clear view <= 4.3 m": {
+        "n": 453,
+        "in_R": 0,
+        "share_of_R_boundary": 0.0,
+        "precision": 0.0
+      },
+      "clear view only > 4.3 m": {
+        "n": 188,
+        "in_R": 9,
+        "share_of_R_boundary": 0.004,
+        "precision": 0.048
+      },
+      "no clear view": {
+        "n": 47393,
+        "in_R": 2192,
+        "share_of_R_boundary": 0.87,
+        "precision": 0.046
+      },
+      "touches surface": {
+        "n": 13530,
+        "in_R": 319,
+        "share_of_R_boundary": 0.127,
+        "precision": 0.024
+      }
+    }
+  }
+]

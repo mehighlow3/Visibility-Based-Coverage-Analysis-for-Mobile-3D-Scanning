@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+
+# raw scans (GB-sized, GitHub limit is 100 MB per file)
+/institutGesamt/
+*.bag
+
+# large or regenerated outputs
+out/*_scan0.ply
+out/*/map.ply
+out/*/poses.npy
+out/*/traj.ply
+out/*/step0.json
+experiments/abl_*/*.npz

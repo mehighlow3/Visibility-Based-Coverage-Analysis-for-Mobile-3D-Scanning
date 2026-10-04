@@ -1,0 +1,8 @@
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+rosbags==0.11.5
+octomap-python==1.10.0.0
+open3d==0.20.0
+kiss-icp==1.3.0
+pillow==12.3.0

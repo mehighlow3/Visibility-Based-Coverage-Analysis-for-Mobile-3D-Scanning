@@ -45,7 +45,7 @@ Raven handheld walk
           ├─ step 2: RayStudio "Data Processing"  (vendor, LiDAR+IMU SLAM, once per scan)
           │     └─► recalculate_trj.txt           sensor pose at 200 Hz
           │
-          └─ step 3: coverage.py (bag + trajectory)   ~5 min for the 24-min building scan
+          └─ step 3: coverage.py (bag + trajectory)   ~6.5 min for the 24-min building scan
                 └─► out\<scan>\ coverage.json · gaps.json · coverage_voxels.ply · octree.bt
                         ├─ step 4: CloudCompare   look at the coloured voxels
                         └─ step 5: experiments\   validation and prototypes (not part of the tool)
@@ -53,7 +53,7 @@ Raven handheld walk
 
 ### Step 0 · Capture
 
-Walk through the building with the Raven. Each walk becomes one scan folder; copy it into this folder (e.g. `institutGesamt\`). Only the LiDAR bag is used: `/vanjee_722z` at 10 sweeps/s with about 4,700 points each (fields `x y z intensity ring timestamp`), plus the IMU at 200 Hz. Device: Vanjee WLR-722Z, 16 rings 2.66° apart, vertical field of view −0.2° to +40.2° in the sensor's own frame. The device is held tilted (median 28–42° from vertical, varying from 5° to 76°), so in the world frame it also sees below the horizontal.
+Walk through the building with the Raven. Each walk becomes one scan folder; copy it into this folder (e.g. `institutGesamt\`). Only the LiDAR bag is used: `/vanjee_722z` at 10 sweeps/s with about 4,700 points each (fields `x y z intensity ring timestamp`), plus the IMU at 200 Hz. Device: Vanjee WLR-722Z, 16 rings 2.66° apart, vertical field of view −0.2° to +40.2° in the sensor's own frame. The device is held tilted (median 42° from vertical, between 11° and 76° for 90 % of the walk), so in the world frame it also sees below the horizontal.
 
 ### Step 1 · Check the bag (optional)
 
@@ -82,7 +82,7 @@ In RayStudio run `Data Processing` with Scene Type Indoor, Coloring off, Resolve
 ### Step 3 · Analysis (`coverage.py`)
 
 ```powershell
-& $py coverage.py --scan institutGesamt         # 24-min building scan, ~5 min
+& $py coverage.py --scan institutGesamt         # 24-min building scan, ~6.5 min
 ```
 
 | Stage | What happens |
@@ -166,7 +166,7 @@ Python 3.12 (Python 3.14 has no wheels for `open3d`, `kiss-icp` or `octomap-pyth
 ```powershell
 py -3.12 -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
-$py = ".venv\Scripts\python.exe"
+$py = (Resolve-Path .venv\Scripts\python.exe).Path
 ```
 
 ## Folder

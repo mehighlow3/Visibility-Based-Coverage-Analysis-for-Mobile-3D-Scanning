@@ -1,4 +1,4 @@
-"""Deletion-test table and key numbers for RESULTS.md (finding 3).
+"""Deletion-test table and key numbers for README.md (finding 3).
 
     python make_table.py [scan]
 """

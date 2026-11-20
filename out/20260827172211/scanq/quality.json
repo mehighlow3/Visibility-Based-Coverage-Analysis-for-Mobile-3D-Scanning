@@ -1,0 +1,491 @@
+{
+ "summary": {
+  "scan": "20260827172211",
+  "s_req_m": 0.05,
+  "range_m": 4.0,
+  "max_incidence_deg": 60.0,
+  "elevation_deg": [
+   -25.0,
+   63.0
+  ],
+  "floor_z": -1.11,
+  "sensor_height_m": 1.52,
+  "surface_m2": 509.0,
+  "met_m2": 386.2,
+  "met_pct": 75.9,
+  "deficit_m2": 122.8,
+  "deficit_by_kind": {
+   "closer": 79.0,
+   "enter": 2.3,
+   "explore": 7.4,
+   "blocked": 1.2,
+   "beyond": 24.2,
+   "limit": 8.6
+  },
+  "deficit_never_seen_close_m2": 94.3,
+  "deficit_seen_close_m2": 28.5,
+  "closer_not_listed_m2": 16.7,
+  "met_pct_flat": 76.4,
+  "things_counted": false,
+  "by_class": {
+   "wall": {
+    "m2": 279.4,
+    "met_pct": 78.6
+   },
+   "floor": {
+    "m2": 58.8,
+    "met_pct": 60.6
+   },
+   "ceiling": {
+    "m2": 112.4,
+    "met_pct": 78.6
+   },
+   "other_flat": {
+    "m2": 41.4,
+    "met_pct": 77.9
+   },
+   "edge": {
+    "m2": 16.9,
+    "met_pct": 59.8
+   },
+   "top": {
+    "m2": 19.8,
+    "met_pct": 68.3
+   },
+   "clutter": {
+    "m2": 31.5,
+    "met_pct": 15.3
+   }
+  },
+  "things_m2": 51.3,
+  "things_met_pct": 35.7,
+  "building_m2": 509.0,
+  "building_met_pct": 75.9,
+  "hidden": {
+   "floor_under_things_m2": 6.3,
+   "wall_behind_things_m2": 16.2,
+   "wall_not_seen_m2": 29.3,
+   "things_footprint_m2": 15.1
+  },
+  "p_fix": {
+   "flat": 0.9,
+   "edge": 0.85,
+   "top": 0.8,
+   "clutter": 0.4
+  },
+  "closer_frac": 0.75,
+  "same_frac": 0.4,
+  "outside_m2": 16.6,
+  "achieved_pct": {
+   "2.5 cm": 52.2,
+   "5 cm": 23.6,
+   "10 cm": 21.6,
+   "20 cm": 2.4
+  },
+  "floor": {
+   "reachable_m2": 57.3,
+   "cut_off_m2": 1.2,
+   "no_floor_m2": 24.7,
+   "floor_seen_share": {
+    "reach": 0.7,
+    "cut": 0.53,
+    "nofloor": 0.0
+   },
+   "openings": 2,
+   "traj_on_walk": 0.783
+  },
+  "actions": 11,
+  "actions_gain_m2": 60.3,
+  "time_s": {
+   "quality": 0.85,
+   "dense_grid": 4.5,
+   "plan": 5.6,
+   "total": 12.2
+  }
+ },
+ "actions": [
+  {
+   "kind": "closer",
+   "xy": [
+    3.5,
+    -0.4
+   ],
+   "gain_m2": 18.0,
+   "n_patches": 592,
+   "walk_m": 10.8,
+   "target": [
+    4.71,
+    -0.07,
+    1.31
+   ],
+   "target_z": [
+    -1.2,
+    2.68
+   ],
+   "id": 1,
+   "clearance_m": 0.2,
+   "area_m2": 20.0,
+   "new_m2": 20.0,
+   "closer_m2": 0.0,
+   "same_m2": 0.0,
+   "types": {
+    "wall": 12.6,
+    "floor": 0.0,
+    "ceiling": 6.7,
+    "other_flat": 0.0,
+    "edge": 0.6
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    4.3,
+    2.4
+   ],
+   "gain_m2": 10.8,
+   "n_patches": 356,
+   "walk_m": 8.8,
+   "target": [
+    2.91,
+    1.52,
+    1.05
+   ],
+   "target_z": [
+    -1.13,
+    2.65
+   ],
+   "id": 2,
+   "clearance_m": 0.2,
+   "area_m2": 12.1,
+   "new_m2": 11.9,
+   "closer_m2": 0.0,
+   "same_m2": 0.1,
+   "types": {
+    "wall": 10.8,
+    "floor": 0.0,
+    "ceiling": 1.0,
+    "other_flat": 0.0,
+    "edge": 0.2
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    0.5,
+    14.8
+   ],
+   "gain_m2": 6.6,
+   "n_patches": 233,
+   "walk_m": 6.2,
+   "target": [
+    -0.74,
+    15.15,
+    1.64
+   ],
+   "target_z": [
+    -1.25,
+    2.84
+   ],
+   "id": 3,
+   "clearance_m": 0.28,
+   "area_m2": 7.5,
+   "new_m2": 7.2,
+   "closer_m2": 0.0,
+   "same_m2": 0.3,
+   "types": {
+    "wall": 5.2,
+    "floor": 0.0,
+    "ceiling": 1.9,
+    "other_flat": 0.2,
+    "edge": 0.2
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    -1.5,
+    4.0
+   ],
+   "gain_m2": 5.0,
+   "n_patches": 228,
+   "walk_m": 1.3,
+   "target": [
+    -2.28,
+    3.5,
+    0.71
+   ],
+   "target_z": [
+    -1.09,
+    3.52
+   ],
+   "id": 4,
+   "clearance_m": 0.41,
+   "area_m2": 7.7,
+   "new_m2": 2.1,
+   "closer_m2": 2.0,
+   "same_m2": 3.6,
+   "types": {
+    "wall": 3.4,
+    "floor": 0.2,
+    "ceiling": 1.7,
+    "other_flat": 1.2,
+    "edge": 1.2
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    1.7,
+    5.4
+   ],
+   "gain_m2": 4.1,
+   "n_patches": 133,
+   "walk_m": 3.2,
+   "target": [
+    3.89,
+    4.54,
+    0.98
+   ],
+   "target_z": [
+    -1.16,
+    2.8
+   ],
+   "id": 5,
+   "clearance_m": 0.2,
+   "area_m2": 4.7,
+   "new_m2": 4.2,
+   "closer_m2": 0.3,
+   "same_m2": 0.2,
+   "types": {
+    "wall": 3.6,
+    "floor": 0.1,
+    "ceiling": 0.5,
+    "other_flat": 0.1,
+    "edge": 0.2
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    -4.1,
+    5.8
+   ],
+   "gain_m2": 3.2,
+   "n_patches": 135,
+   "walk_m": 3.8,
+   "target": [
+    -4.66,
+    6.17,
+    1.75
+   ],
+   "target_z": [
+    -0.86,
+    3.44
+   ],
+   "id": 6,
+   "clearance_m": 0.2,
+   "area_m2": 4.5,
+   "new_m2": 2.8,
+   "closer_m2": 0.5,
+   "same_m2": 1.1,
+   "types": {
+    "wall": 2.1,
+    "floor": 0.0,
+    "ceiling": 1.4,
+    "other_flat": 0.5,
+    "edge": 0.4
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    5.5,
+    -2.0
+   ],
+   "gain_m2": 2.4,
+   "n_patches": 80,
+   "walk_m": 14.4,
+   "target": [
+    5.38,
+    -3.99,
+    2.0
+   ],
+   "target_z": [
+    -1.16,
+    2.71
+   ],
+   "id": 7,
+   "clearance_m": 0.2,
+   "area_m2": 2.7,
+   "new_m2": 2.7,
+   "closer_m2": 0.0,
+   "same_m2": 0.0,
+   "types": {
+    "wall": 0.9,
+    "floor": 0.1,
+    "ceiling": 1.6,
+    "other_flat": 0.0,
+    "edge": 0.0
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    -0.3,
+    11.8
+   ],
+   "gain_m2": 2.1,
+   "n_patches": 81,
+   "walk_m": 4.0,
+   "target": [
+    0.92,
+    13.67,
+    1.16
+   ],
+   "target_z": [
+    -1.23,
+    2.84
+   ],
+   "id": 8,
+   "clearance_m": 0.2,
+   "area_m2": 2.6,
+   "new_m2": 2.1,
+   "closer_m2": 0.1,
+   "same_m2": 0.3,
+   "types": {
+    "wall": 1.9,
+    "floor": 0.0,
+    "ceiling": 0.5,
+    "other_flat": 0.1,
+    "edge": 0.1
+   }
+  },
+  {
+   "kind": "closer",
+   "xy": [
+    3.7,
+    5.6
+   ],
+   "gain_m2": 1.5,
+   "n_patches": 55,
+   "walk_m": 5.0,
+   "target": [
+    3.03,
+    4.02,
+    0.44
+   ],
+   "target_z": [
+    -1.18,
+    2.75
+   ],
+   "id": 9,
+   "clearance_m": 0.94,
+   "area_m2": 2.0,
+   "new_m2": 1.4,
+   "closer_m2": 0.1,
+   "same_m2": 0.4,
+   "types": {
+    "wall": 0.8,
+    "floor": 0.0,
+    "ceiling": 0.8,
+    "other_flat": 0.1,
+    "edge": 0.3
+   }
+  },
+  {
+   "kind": "enter",
+   "xy": [
+    -1.9,
+    0.4
+   ],
+   "gain_m2": 2.0,
+   "n_patches": 66,
+   "walk_m": null,
+   "target": [
+    -1.8,
+    -0.21,
+    1.22
+   ],
+   "target_z": [
+    -0.95,
+    3.55
+   ],
+   "id": 10,
+   "clearance_m": 0.2,
+   "area_m2": 2.2,
+   "new_m2": 2.1,
+   "closer_m2": 0.1,
+   "same_m2": 0.1,
+   "types": {
+    "wall": 1.5,
+    "floor": 0.0,
+    "ceiling": 0.3,
+    "other_flat": 0.3,
+    "edge": 0.1
+   }
+  },
+  {
+   "kind": "explore",
+   "xy": [
+    4.7,
+    13.0
+   ],
+   "gain_m2": 4.6,
+   "n_patches": 158,
+   "walk_m": null,
+   "target": [
+    5.72,
+    11.49,
+    2.67
+   ],
+   "target_z": [
+    1.5,
+    2.75
+   ],
+   "id": 11,
+   "clearance_m": 3.4,
+   "area_m2": 5.2,
+   "new_m2": 5.1,
+   "closer_m2": 0.0,
+   "same_m2": 0.1,
+   "types": {
+    "wall": 0.2,
+    "floor": 0.0,
+    "ceiling": 5.0,
+    "other_flat": 0.0,
+    "edge": 0.0
+   }
+  }
+ ],
+ "openings": [
+  {
+   "xy": [
+    -1.32,
+    14.75
+   ],
+   "width_m": 0.7,
+   "beyond_m2": 59.4,
+   "walk_m": 7.5
+  },
+  {
+   "xy": [
+    3.65,
+    5.95
+   ],
+   "width_m": 0.7,
+   "beyond_m2": 115.0,
+   "walk_m": 4.0
+  }
+ ],
+ "frame": {
+  "origin_xy": [
+   -10.600000000000001,
+   -9.1
+  ],
+  "res_m": 0.1,
+  "shape": [
+   215,
+   274
+  ]
+ }
+}

@@ -1,14 +1,11 @@
 .venv/
 __pycache__/
 
-# raw scans (GB-sized, GitHub limit is 100 MB per file)
-/institutGesamt/
+# raw scans (GB-sized; not published)
 *.bag
 
-# large or regenerated outputs
-out/*_scan0.ply
-out/*/map.ply
-out/*/poses.npy
-out/*/traj.ply
-out/*/step0.json
-experiments/abl_*/*.npz
+# build caches, rebuilt by assess.py (~25 MB per scan)
+out/*/scanq/*/
+
+# labels saved from the page
+labels_*.json
